@@ -1,0 +1,29 @@
+{
+	"name": "r3f-repeat-texture",
+	"homepage": "https://nemutas.github.io/r3f-repeat-texture/",
+	"private": true,
+	"version": "0.0.0",
+	"scripts": {
+		"start": "vite",
+		"build": "tsc && vite build",
+		"preview": "vite preview",
+		"deploy": "npm run build && gh-pages -d dist"
+	},
+	"dependencies": {
+		"@react-three/drei": "^9.7.1",
+		"@react-three/fiber": "^8.0.13",
+		"react": "^18.0.0",
+		"react-dom": "^18.0.0",
+		"three": "^0.140.0"
+	},
+	"devDependencies": {
+		"@types/react": "^18.0.0",
+		"@types/react-dom": "^18.0.0",
+		"@types/three": "^0.140.0",
+		"@vitejs/plugin-react": "^1.3.0",
+		"gh-pages": "^3.2.3",
+		"typescript": "^4.6.3",
+		"vite": "^2.9.7",
+		"vite-plugin-glsl": "^0.1.2"
+	}
+}
