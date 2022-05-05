@@ -12,6 +12,7 @@ https://nemutas.github.io/r3f-repeat-texture/
 - React（Create React App）
 - React Three Fiber（Three.js）
 - Shader
+- RGB Shift
 
 # Reference
 
